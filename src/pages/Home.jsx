@@ -1,5 +1,4 @@
 import React from 'react'
-import Icon from '../components/Icon'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -22,7 +21,7 @@ const Home = () => {
             {/* total supply container */}
             <div>
               {/* map the list if you have */}
-              <div className="d-flex minting-items justify-content-between px-4 ">
+              <div className=" mt-5  d-flex minting-items justify-content-between px-4 ">
                 <h3>Total Supply</h3>
                 <p className='text-white'>0</p>
               </div>
@@ -37,8 +36,8 @@ const Home = () => {
             </div>
             {/* NFT Amount and button "MINT" */}
             <div className="px-2">
-              <div className="d-flex minting-grid rounded-2  my-4 p-2 border border-2 border-white  justify-content-between px-2 ">
-                <h2 className='text-font'>NFT Amount</h2>
+              <div className="d-flex minting-grid rounded-2  my-4 px-2 py-1 border border-2 border-white  justify-content-between px-2 ">
+                <h2 className='text-font pl-2'>NFT Amount</h2>
                 <Button  variant="secondary" size="md" active className=' px-5  btn rounded-2 font-weight-bold bg-white text-warning px-4'>
                   MINT
                 </Button>
@@ -53,7 +52,7 @@ const Home = () => {
             </div>
             {/* total supply container */}
             <div className="d-flex my-3 justify-content-center  text-center ">
-              <h2 className='text-font text-white '>0 <span className='fs-5  '>$AAI</span></h2>
+              <h2 className='text-font second-grid text-white '>0 <span className='  '>$AAI</span></h2>
             </div>
           </Col>
         </Row>

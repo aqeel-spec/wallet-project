@@ -60,7 +60,7 @@ body {
 
 }
 .btn {
-  color: #f7d86c;
+  color: #f7d86c !important;
   border-radius: 50%;
   /* padding: 16px; */
   /* border: none; */
@@ -91,12 +91,17 @@ body {
 }
 .minting-grid div h1 {
   color: #f7d86c;
-  border-bottom: 2px dashed white;
+  border-bottom: 2px dashed #f7d86c;
   font-family:Cambria, Cochin, Georgia, Times, 'Roboto', serif , sans-serif;
   font-size: 2.5rem;
   /* border-style: dotted; */
 }
-
+.minting-grid .second-grid {
+  font-size: 60px;
+}
+.minting-grid .second-grid {
+  font-size: 25px;
+}
 .minting-grid div h3 {
   color: #a39076;
   font-weight: 500;
@@ -112,8 +117,19 @@ body {
 .minting-grid h2 {
   color: #a39076;
   font-family:Cambria, Cochin, Georgia, Times, 'Roboto', serif , sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-left: 10px ;
 
+}
+.minting-grid h2 span {
+  color: #f7d86c;
+  font-size: 14px;
+}
+.minting-grid div h3 {
+  color: #a39076;
+  font-weight: 500;
+  padding: 5px 0 5px 0;
+  font-size: 1.2rem;
 }
 .minting-grid div h2 span {
   color: #f7d86c;
@@ -199,11 +215,18 @@ body {
   .nav-item:hover {
     color : #f7d86c
   } 
+  .minting-grid div h1 {
+    font-size: 1rem; 
+  }
+  .minting-grid div h3 {
+    font-size: 0.8rem;
+
+  }
   .minting-grid h2 {
     font-size: 1.5rem;
   }
-  .minting-grid div h1 {
-    font-size: 1.5rem;
+  .minting-grid h2 span {
+    font-size: 14px ;
   }
   
 }
@@ -223,11 +246,18 @@ body {
   .nav-item:hover {
     color : #f7d86c
   } 
-  .minting-grid h2 {
-    font-size: 1.6rem;
-  }
   .minting-grid div h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
+  }
+  .minting-grid h2 {
+    font-size: 1.5rem;
+  }
+  .minting-grid h2 span {
+    font-size: 14px ;
+  }
+  .minting-grid div h3 {
+    font-size: 0.9rem;
+    
   }
 
 }
@@ -247,11 +277,18 @@ body {
   .nav-item:hover {
     color : #f7d86c
   } 
-  .minting-grid h2 {
-    font-size: 2.5rem;
-  }
   .minting-grid div h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+  }
+  .minting-grid h2 span {
+    font-size: 14px ;
+  }
+  .minting-grid h2 span {
+    font-size: 14px ;
+  }
+  .minting-grid div h3 {
+    font-size: 1.2rem;
+    
   }
 }
 
@@ -271,7 +308,17 @@ body {
       color : #f7d86c
     } 
     .minting-grid div h1 {
-      font-size: 2.5rem;
+      font-size: 1rem;
+    }
+    .minting-grid h2 {
+      font-size: 1.5rem;
+    }
+    .minting-grid div h3 {
+      font-size: 0.8rem;
+      
+    }
+    .minting-grid h2 span {
+      font-size: 14px ;
     }
   }
 }
