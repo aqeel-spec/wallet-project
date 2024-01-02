@@ -22,15 +22,15 @@ const Home = () => {
             <div>
               {/* map the list if you have */}
               <div className=" mt-5  d-flex minting-items justify-content-between px-4 ">
-                <h3>Total Supply</h3>
+                <h3>Total Supply:</h3>
                 <p className='text-white'>0</p>
               </div>
               <div className="d-flex justify-content-between px-4 ">
-                <h3>Max Per User</h3>
+                <h3>Max Per User:</h3>
                 <p className='text-white'>0</p>
               </div>
               <div className="d-flex justify-content-between px-4 ">
-                <h3>Minted</h3>
+                <h3>Minted:</h3>
                 <p className='text-white'>0</p>
               </div>
             </div>
